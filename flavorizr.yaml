@@ -1,0 +1,37 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+flavors:
+  dev:
+    app:
+      name: "AI Toolkit Dev"
+    android:
+      applicationId: "dev.ogaroh.ai_toolkit.dev"
+      # icon: "assets/envs/dev/app-icon.png"
+      # adaptiveIcon:
+      #   foreground: "assets/envs/dev/app-icon-foreground.png"
+      #   background: "assets/envs/dev/app-icon-background.png"
+    ios:
+      bundleId: "dev.ogaroh.aiToolkit.dev"
+      # icon: "assets/envs/dev/app-icon.png"
+    macos:
+      bundleId: "dev.ogaroh.aiToolkit.dev"
+      # icon: "assets/envs/dev/app-icon.png"
+  
+  
+  
+  prod:
+    app:
+      name: "AI Toolkit"
+    android:
+      applicationId: "dev.ogaroh.ai_toolkit"  
+      # icon: "assets/envs/prod/app-icon.png"
+      # adaptiveIcon:
+      #   foreground: "assets/envs/prod/app-icon-foreground.png"
+      #   background: "assets/envs/prod/app-icon-background.png"
+    ios:
+      bundleId: "dev.ogaroh.aiToolkit"
+      # icon: "assets/envs/prod/app-icon.png"
+    macos:
+      bundleId: "dev.ogaroh.aiToolkit"
+      # icon: "assets/envs/prod/app-icon.png"

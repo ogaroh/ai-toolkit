@@ -1,0 +1,6 @@
+#include "../../Flutter/prodDebug.xcconfig"
+#include "Warnings.xcconfig"
+
+ASSET_PREFIX=prod
+BUNDLE_NAME=AI Toolkit
+BUNDLE_DISPLAY_NAME=AI Toolkit
