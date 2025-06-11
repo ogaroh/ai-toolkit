@@ -1,0 +1,21 @@
+projectName: ai_toolkit
+appName: AI Toolkit
+organisationName: dev.ogaroh
+git: true
+gitRemoteUrl: "git@github.com:ogaroh/ai-toolkit.git"
+starterProject: flutter_starter
+environments: 
+  - dev
+  - prod
+
+components: 
+  - core_app_icon
+  - core_splash_screen
+  - core_localizations
+
+params: 
+  flutter_version: 3.29.2
+  app_name: AI Toolkit
+
+executors: 
+  - android_configurations

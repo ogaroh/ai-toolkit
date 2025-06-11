@@ -4,3 +4,5 @@
 ASSET_PREFIX=dev
 BUNDLE_NAME=AI Toolkit Dev
 BUNDLE_DISPLAY_NAME=AI Toolkit Dev
+
+#include "Dart-Defines.xcconfig"
