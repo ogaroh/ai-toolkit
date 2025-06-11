@@ -1,3 +1,5 @@
+import 'package:ai_toolkit/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:ai_toolkit/app.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
@@ -14,6 +16,7 @@ Future<void> runMainApp() async {
   ErrorWidget.builder = errorBuilderWidget;
 
   // Add your initialization code here
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   FlutterNativeSplash.remove();
 

@@ -51,5 +51,12 @@
 		<true/>
 		<key>UIViewControllerBasedStatusBarAppearance</key>
 		<false/>
+		<!-- Permission declarations -->
+		<key>NSCameraUsageDescription</key>
+		<string>$(PRODUCT_NAME) would like to access your camera.</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>$(PRODUCT_NAME) would like to access your microphone.</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>$(PRODUCT_NAME) would like access to your photos.</string>
 	</dict>
 </plist>

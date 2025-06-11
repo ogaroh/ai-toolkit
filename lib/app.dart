@@ -1,5 +1,6 @@
 import 'dart:math' as math;
 
+import 'package:ai_toolkit/features/chat/views/chat_page.dart';
 import 'package:flutter/material.dart';
 import 'package:ai_toolkit/l10n/l10n.dart';
 import 'package:flutter/services.dart';
@@ -38,10 +39,11 @@ class MyApp extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const MyHomePage(title: 'Ai Toolkit'),
+      // home: const MyHomePage(title: 'Ai Toolkit'),
+      home: ChatPage(),
       builder: (context, child) {
         return Banner(
-          message: 'Codika',
+          message: 'Ogaroh',
           location: BannerLocation.topEnd,
           color: pinkColor,
           shadow: const BoxShadow(
