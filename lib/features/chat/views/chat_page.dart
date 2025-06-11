@@ -9,7 +9,6 @@ class ChatPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: const Text('AI Chat')),
     body: LlmChatView(
-      style: LlmChatViewStyle(),
       provider: FirebaseProvider(
         model: FirebaseAI.googleAI().generativeModel(model: 'gemini-2.0-flash'),
       ),
